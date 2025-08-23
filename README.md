@@ -21,11 +21,12 @@ Os sub-circuitos utilizados na ULA foram: Comparador, FullHadder, And, Or.
 Entre a ULA e os multiplexadores foram colocadas saídas de teste para verificação dos resultados parciais de cada sub-circuito.
 
 Os cenários de teste foram:
+
 o	Todos os 6 bits ligados em A e B:
 Entrada: 111111 111111
 Saída:
 
-    - (Sel1 = 0 ou 1) e (Sel2 = 1): 111111 (este é o que consta da figura)
+    - (Sel1 = 0 ou 1) e (Sel2 = 1): 111111
     - (Sel1 = 1) e (Sel2 = 0): 111110 
 
 o	Todos os 6 bits desligados em A e B:
@@ -57,4 +58,10 @@ Saída:
     - (Sel1 = 0) e (Sel2 = 0 ou 1): 000000
     - (Sel1 = 1) e (Sel2 = 0 ou 1): 111111
 
-![img](img/CircuitExercicio.png)
+![img](img/ULA_final000000.png)
+
+![img](img/ULA_final111111.png)
+
+![img](img/ULA_final101010.png)
+
+
