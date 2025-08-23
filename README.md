@@ -24,12 +24,14 @@ Os cenários de teste foram:
 o	Todos os 6 bits ligados em A e B:
 Entrada: 111111 111111
 Saída:
+
     - (Sel1 = 0 ou 1) e (Sel2 = 1): 111111 (este é o que consta da figura)
     - (Sel1 = 1) e (Sel2 = 0): 111110 
 
 o	Todos os 6 bits desligados em A e B:
 Entrada: 000000 000000
 Saída:
+
     - (Sel1 = 1) e (Sel2 = 0 ou 1): 000000
     - (Sel1 = 0) e (Sel2 = 1): 000000
     - (Sel1 = 0) e (Sel2 = 0): 111111
@@ -37,18 +39,21 @@ Saída:
 o	Os bits de A e B alternadamente ligados:
 Entrada: 101010 010101
 Saída:
+
     - (Sel1 = 1) e (Sel2 = 0 ou 1): 111111
     - (Sel1 = 0) e (Sel2 = 0 ou 1): 000000
 
 o	Os 3 primeiros bits de A e os 3 últimos de B ligados:
 Entrada: 111000 000111
 Saída:
+
     - (Sel1 = 0) e (Sel2 = 0 ou 1): 000000
     - (Sel1 = 1) e (Sel2 = 0 ou 1): 111111
 
 o	Os 3 primeiros bits de B e os 3 últimos de A ligados:
 Entrada: 000111 111000
 Saída:
+
     - (Sel1 = 0) e (Sel2 = 0 ou 1): 000000
     - (Sel1 = 1) e (Sel2 = 0 ou 1): 111111
 
